@@ -143,6 +143,6 @@ func1=lambdify(x,f1)
 start=-1.1
 end=2
 eps=0.0001
-#secent_method(func1,start,end, eps)
+secent_method(func1,start,end, eps)
 Bisection_Method(func1,start,end,eps)
 #Newton_Raphson(f1,start,end,eps)
